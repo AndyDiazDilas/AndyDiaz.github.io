@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>CSS Template</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="css/style1.css">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+nav {
+  float: left;
+  width: 30%;
+  height: 800px; 
+  background: #ccc;
+  padding: 20px;
+  font-family: cursive;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 10px;
+}
+
+article {
+  float: left;
+  padding: 20px;
+  width: 70%;
+  background-color: #f1f1f1;
+  height: 800px; 
+  text-align: center;
+}
+
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+footer {
+  background-color: #777;
+  padding: 10px;
+  margin-bottom: 50px;
+            margin-top: 0px;
+            margin-left: 0px;
+            margin-right: 0px;
+  text-align: center;
+  color: white;
+  width: 1880px;
+}
+
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+#andy{
+  text-align: left;
+  font-family: cursive;
+  color: rgb(255, 153, 20);
+  font-size: 30px;
+}
+</style>
+</head>
+<body>
+<header>
+  <div class="principio">
+    <img src="img/amarillo.jfif" alt="" width="1880px" height="300px">
+    <div class="centro">MAS CANCIONES...</div>
+</div>
+</header>
+
+<section>
+  <nav>
+    <ul>
+      <li><a href="PlanA.html">PLAN A - LETRA</a></li>
+      <li><a href="Biografia.html">BIOGRAFIA - PAULO LONDRA</a></li>
+      <li><a href="Redes.html">MAS CANCIONES...</a></li>
+      <li><a href="MAPA.html">LUGAR DE CONCIERTO...</a></li>
+    </ul>
+  </nav>
+  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2758.8901904229406!2d-77.03380224485912!3d-12.066903631671053!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105c8eb498672dd%3A0xefa377174834b5d7!2sEstadio%20Nacional!5e0!3m2!1ses!2spe!4v1651468833931!5m2!1ses!2spe" width="1318" height="800" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</section>
+
+<footer>
+  <p>MAPA :D</p>
+</footer>
+
+</body>
+</html>
